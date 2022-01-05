@@ -11,6 +11,8 @@ import { rootRouterConfig } from "./app.routes";
 import { APP_BASE_HREF } from "@angular/common";
 import { DataBindingComponent } from "./demos/data-binding/data-binding.component";
 import { FormsModule } from "@angular/forms";
+import { ListaProdutoComponent } from "./produtos/lista-produto/lista-produto.component";
+import { ProdutosService } from "./produtos/produtos.service";
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import { FormsModule } from "@angular/forms";
     SobreComponent,
     ContatoComponent,
     DataBindingComponent,
+    ListaProdutoComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,6 +31,7 @@ import { FormsModule } from "@angular/forms";
     RouterModule.forRoot(rootRouterConfig, { useHash: false }),
   ],
   providers: [
+    ProdutosService,
     {
       provide: APP_BASE_HREF,
       useValue: "/",

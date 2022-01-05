@@ -1,0 +1,77 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "mouse Microsoft",
+      "valor": 15.9,
+      "promocao": false,
+      "valorPromo": 0,
+      "imagem": "mouse.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Teclado Microsoft",
+      "valor": 30.0,
+      "promocao": false,
+      "valorPromo": 0,
+      "imagem": "teclado.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Monitor Samsung",
+      "valor": 250.0,
+      "promocao": false,
+      "valorPromo": 0,
+      "imagem": "monitor.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Laptop Asus",
+      "valor": 3000.0,
+      "promocao": true,
+      "valorPromo": 999.9,
+      "imagem": "laptop.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Headset Microsoft",
+      "valor": 10.5,
+      "promocao": false,
+      "valorPromo": 0,
+      "imagem": "headset.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Webcam Logitech",
+      "valor": 90.0,
+      "promocao": true,
+      "valorPromo": 49.99,
+      "imagem": "webcam.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "Galaxy S10+",
+      "valor": 3000.0,
+      "promocao": false,
+      "valorPromo": 0,
+      "imagem": "celular.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "Mousepad Microsoft",
+      "valor": 5.5,
+      "promocao": false,
+      "valorPromo": 0,
+      "imagem": "mousepad.jpg"
+    },
+    {
+      "id": 9,
+      "nome": "Go Pro 8",
+      "valor": 300.0,
+      "promocao": false,
+      "valorPromo": 0,
+      "imagem": "gopro.jpg"
+    }
+  ],
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }]
+}
