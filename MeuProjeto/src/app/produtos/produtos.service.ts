@@ -3,9 +3,10 @@ import { HttpClient } from "@angular/common/http";
 import { Produto } from "./produto";
 import { Observable } from "rxjs";
 
-@Injectable({ providedIn: "root" })
+@Injectable()
 export class ProdutosService {
   constructor(private http: HttpClient) {}
+
   protected UrlServiceV1: string = "http://localhost:3000/";
 
   obterProdutos(): Observable<Produto[]> {
